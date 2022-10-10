@@ -1,0 +1,141 @@
+.sectiton-OutstandingDoctor{
+    height: 330px;
+    background: #eceaec;
+
+    .OutstandingDoctor-container{
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+
+        .OutstandingDoctor-header{
+            height: 60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+
+            .title-section{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            .btn-section{
+                float: right;
+                display: block;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                background: #eceaec;
+                color: black;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover{
+                    color: #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+
+        .OutstandingDoctor-body{
+            .OutstandingDoctor-customize{
+
+                .bg-image1{
+                    height: 150px;
+                    width: 278px;
+                    background: url('../../assets//images/bacsi1.jpg');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover 50px;
+                    background-color: #eee;
+                    clip-path: circle(75px at 55% 50%);
+                }
+
+                .bg-image2{
+                    height: 150px;
+                    width: 278px;
+                    background: url('../../assets//images/bacsi2.jpg');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size:  cover 150px;
+                    background-color: #eee;
+                    clip-path: circle(75px at 55% 50%);
+                }
+
+                .bg-image3{
+                    height: 150px;
+                    width: 278px;
+                    background: url('../../assets//images/bacsi3.jpg');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size:   177px;
+                    background-color: #eee;
+                    clip-path: circle(75px at 55% 50%);
+                }
+
+                .bg-image4{
+                    height: 150px;
+                    width: 278px;
+                    background: url('../../assets//images/bacsi4.jpg');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size:   cover;
+                    background-color: #eee;
+                    clip-path: circle(75px at 55% 50%);
+                }
+                .bg-image5{
+                    height: 150px;
+                    width: 278px;
+                    background: url('../../assets//images/bacsi5.jpg');
+                    background-position: 30px -2px ;
+                    background-repeat: no-repeat;
+                    background-size:   cover;
+                    background-color: #eee;
+                    clip-path: circle(75px at 60% 50%);
+                }
+            }
+
+            //reset slick slider
+            .slick-prev{
+                border: 2px solid #d7d7d7 !important;
+                right: -10px !important;
+                z-index: 1000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                &:hover{
+                    background: #eceaec !important;
+                }
+            }
+
+            .slick-prev::before{
+
+                font-family: FontAwesome !important;
+                // content: "\f060" !important;
+                color: red !important
+            }
+
+
+            .slick-next{
+                border: 2px solid #d7d7d7 !important;
+                right: -10px !important;
+                z-index: 1000 !important;
+                height: 48px !important;
+                width: 44px !important;
+                &:hover{
+                    background: #eceaec !important;
+                }
+            }
+
+            .slick-next::before{
+                font-family: 'Glyphicons Halfings' !important;
+                color: red !important
+            }
+
+                    }
+                }
+
+            h3{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+}
+
+

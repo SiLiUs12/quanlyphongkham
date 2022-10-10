@@ -1,0 +1,50 @@
+.login-background{
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+
+    .login-container{
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 400px;
+        height: 450px;
+        position: absolute;
+        margin: auto;
+        border-radius: 10px;
+        background-color: white;
+
+        .login-content{
+            padding: 10px;
+
+            .text-login{
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top:10px;
+            }
+
+            .button-login{
+                margin-top: 10px;
+                margin-bottom: 1
+                0px;
+            }
+
+
+            .custom-input-password{
+                position: relative;
+                display: flex;
+
+                i.far.fa-eye, i.far.fa-eye-slash{
+                    position: absolute;
+                    right: 0;
+                    margin-top: 8px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
